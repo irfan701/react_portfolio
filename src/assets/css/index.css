@@ -4,7 +4,7 @@
 }
 
 .topFixedBanner {
-    background-image: url("../images/banner1.jpg");
+    background-image: url("../images/banner2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,6 +39,7 @@
     /*line-height: 48px;*/
     color: #fff;
 }
+
 
 .commonMainTitle {
     color: #0073E6;
@@ -78,4 +79,52 @@
 
 .serviceCard:hover {
     box-shadow: 0 0 8px 0 rgba(0, 115, 230, 0.2);
+}
+
+.navTitle {
+    color: #fff !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navTitleScroll {
+    color: #0073E6 !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navBackground {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    -o-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -webkit-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+
+.navBackgroundScroll {
+    background-color: #fff !important;
+    -o-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -webkit-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+
+.navItem {
+    text-decoration: none !important;
+    color: #fff !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.navItemScroll {
+    text-decoration: none !important;
+    color: #000000 !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
 }
