@@ -1,8 +1,10 @@
+import TopBanner from "./components/TopBanner.jsx";
+
 function App() {
 
   return (
     <>
-      <h2>Hello World</h2>
+    <TopBanner/>
     </>
   )
 }

@@ -1,2 +1,43 @@
-/*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topFixedBanner {
+    background-image: url("../images/banner1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.topBannerOverlay {
+    min-height: 500px;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.topContent {
+    margin-top: 10rem;
+}
+
+.topTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    /*line-height: 96px;*/
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.topSubTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    /*line-height: 48px;*/
+    color: #fff;
+}
