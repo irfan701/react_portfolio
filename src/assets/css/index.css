@@ -223,9 +223,7 @@
     font-size: 15px;
 }
 
-
 .courseTitle {
-
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -248,4 +246,36 @@
 
 .courseImg {
     width: 100% !important;
+}
+
+.videoCard {
+    padding: 6rem 3rem 6rem 3rem;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.1);
+    background-color: #ffffff;
+    margin: 50px auto;
+}
+
+.videoCard:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 115, 230, 0.2);
+    transition: linear 500ms;
+}
+
+.playBtn {
+    color: #0073E6;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.videoTitle {
+    color: #0073E6;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.videoDes {
+    color: #7F7E7E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }

@@ -5,6 +5,7 @@ import Analysis from "./components/Analysis.jsx";
 import Summary from "./components/Summary.jsx";
 import RecentProjects from "./components/RecentProjects.jsx";
 import Courses from "./components/Courses.jsx";
+import Video from "./components/Video.jsx";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <Summary/>
             <RecentProjects/>
             <Courses/>
+            <Video/>
         </>
     )
 }
