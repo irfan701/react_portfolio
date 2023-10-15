@@ -4,6 +4,7 @@ import TopNavbar from "./components/TopNavbar.jsx";
 import Analysis from "./components/Analysis.jsx";
 import Summary from "./components/Summary.jsx";
 import RecentProjects from "./components/RecentProjects.jsx";
+import Courses from "./components/Courses.jsx";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
             <Analysis/>
             <Summary/>
             <RecentProjects/>
+            <Courses/>
         </>
     )
 }

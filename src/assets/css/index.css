@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .text-justify {
     text-align: justify !important;
 }
@@ -132,7 +133,7 @@
     text-transform: uppercase;
 }
 
-.des{
+.des {
     color: #000000 !important;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -156,59 +157,95 @@
     background: rgba(0, 0, 0, 0.7);
 }
 
-.countNumber{
+.countNumber {
     color: #ffffff !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 48px;
 }
-.countTitle{
+
+.countTitle {
     color: #ffffff !important;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 22px;
 }
-.countSection{
-    margin-top: 12%!important;
+
+.countSection {
+    margin-top: 12% !important;
 }
-.cardTitle{
+
+.cardTitle {
     color: #000000 !important;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 22px;
 }
-.cardSubTitle{
+
+.cardSubTitle {
     color: #000000 !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
-.iconBullet{
+
+.iconBullet {
     color: #0073E6 !important;
     font-size: 16px;
 }
-.workCard{
+
+.workCard {
     margin-top: 14%;
     padding: 10px;
     border-radius: 2px;
 }
 
-.projectCard{
+.projectCard {
     border-radius: 2px;
-    border: none!important;
+    border: none !important;
     margin: 2px;
     box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
 }
-.projectCard:hover{
+
+.projectCard:hover {
     box-shadow: 0 0 8px 0 rgba(0, 115, 230, 0.2);
 }
-.projectCardTitle{
+
+.projectCardTitle {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 18px;
 }
-.projectCardDes{
+
+.projectCardDes {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 15px;
+}
+
+
+.courseTitle {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.courseDes {
+    color: #7F7E7E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.courseDetailsBtn {
+    color: #0073E6;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.courseImg {
+    width: 100% !important;
 }
