@@ -7,6 +7,7 @@ import RecentProjects from "./components/RecentProjects.jsx";
 import Courses from "./components/Courses.jsx";
 import Video from "./components/Video.jsx";
 import ClientReview from "./components/ClientReview.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <Courses/>
             <Video/>
             <ClientReview/>
+            <Footer/>
         </>
     )
 }
