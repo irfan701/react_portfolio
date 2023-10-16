@@ -59,7 +59,6 @@
 
 .commonTitle {
     margin-top: 1rem;
-    color: #0073E6;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 22px;
@@ -278,4 +277,12 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
+}
+
+.circleImg {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #0073E6;
 }
